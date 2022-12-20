@@ -5,13 +5,13 @@ docker-compose部署真集群项目，网上很多docker-compose项目部署集�
 minio  
 ├── minio-node1          // 节点1  
 ├     └── deploy.sh   
-├     └── docker-compose.yml 
+├     └── docker-compose.yml  
 ├── minio-node2          // 节点2    
 ├     └── deploy.sh   
-├     └── docker-compose.yml 
+├     └── docker-compose.yml  
 ├── minio-node3          // 节点3  
 ├     └── deploy.sh   
-├     └── docker-compose.yml 
+├     └── docker-compose.yml  
 ├── minio-node4          // 节点4  
 ├     └── deploy.sh   
 ├     └── docker-compose.yml      
