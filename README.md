@@ -14,4 +14,10 @@ minio
 │     └── docker-compose.yml  
 ├── minio-node4  
 │     └── deploy.sh  
-│     └── docker-compose.yml  
+│     └── docker-compose.yml 
+├── minio-node1              // 前端框架
+├── minio-node2         // 网关模块
+├── minio-node3            // 认证中心                         // canal同步
+├── minio-node4             // 接口模块
+│       └── deploy.sh   
+│       └── docker-compose.yml      
