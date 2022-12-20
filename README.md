@@ -1,7 +1,9 @@
 # docker-compose-cluster
 docker-compose部署真集群项目，网上很多docker-compose项目部署集群文档，基本都是伪集群
 
-### **minio 把对应的节点文件放到对应的节点上，修改基本信息后执行deploy.sh** #
+### 部署之前先过一遍配置文件，一般要修改的就是IP和账号密码这些，修改完成后直接执行deploy.sh脚本
+
+### **minio 把对应的节点文件放到对应的节点上** #
 minio  
 ├── minio-node1          // 节点1  
 ├     └── deploy.sh   
